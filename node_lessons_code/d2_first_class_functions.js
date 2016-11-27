@@ -16,7 +16,7 @@ logGreet(greet);
 //Function Expressions
 var greetMe = function () {
     console.log('Hi Rafael');
-}
+};
 
 greetMe();
 
