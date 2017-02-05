@@ -1,3 +1,5 @@
-var greetFn = function greet() {
+var greet = function greet() {
     console.log("Hello!");
 }
+
+module.exports = greet;
