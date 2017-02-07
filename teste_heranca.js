@@ -13,6 +13,7 @@ Person.prototype.sayName = function() {
 };
 
 function IndividualPerson() {
+    Person.call(this);
     this.taxNumber = '';
 }
 IndividualPerson.prototype = Object.create(Person.prototype);
