@@ -1,0 +1,14 @@
+{
+  "name": "web_server_with_express",
+  "version": "1.0.0",
+  "description": "Web APP Using Express Framework",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Cruz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
