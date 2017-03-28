@@ -13,7 +13,7 @@ http.createServer(function(req, res){
         var obj = {
             firstName: 'John',
             lastName: 'Doe',
-            date: moment().format('dd/MM/yyyy HH:mm')
+            date: moment().format('DD/MM/YYYY HH:mm:ss')
         };
         res.end(JSON.stringify(obj));
     } else {
