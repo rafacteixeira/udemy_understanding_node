@@ -1,5 +1,6 @@
 var http = require('http');
 var fs = require('fs');
+var moment = require('moment');
 
 
 http.createServer(function(req, res){
@@ -11,7 +12,8 @@ http.createServer(function(req, res){
         res.writeHead(200, {'Content-Type': 'application/json'});
         var obj = {
             firstName: 'John',
-            lastName: 'Doe'
+            lastName: 'Doe',
+            date: moment().format('dd/MM/yyyy HH:mm')
         };
         res.end(JSON.stringify(obj));
     } else {
