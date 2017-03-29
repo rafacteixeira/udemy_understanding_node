@@ -23,4 +23,8 @@ app.get('/person/:id', function (req, res) {
     res.json({ id: req.params.id});
 });
 
+app.get('/person/:id/ejs', function (req, res) {
+    res.render('person',{ ID: req.params.id});
+});
+
 app.listen(port);
